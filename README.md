@@ -25,7 +25,7 @@ docker run --name rstudio-devel --rm \
 
 The container will then be accessible at `localhost:8787`
 
-Or, you can clone the repository and use 'docker compose'
+Or, you can clone the repository and use `docker compose`
 
 ```sh
 git clone git@github.com:wilsontom/r4ms-devel.git
