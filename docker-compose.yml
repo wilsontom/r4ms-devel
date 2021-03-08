@@ -1,0 +1,9 @@
+version: "2"
+services: 
+  rstudio:
+    image: docker.pkg.github.com/wilsontom/r4ms-devel/r4ms-devel:latest
+    container_name: r4ms-devel
+    ports:
+      - 8787:8787
+    environment: 
+      - DISABLE_AUTH=true
